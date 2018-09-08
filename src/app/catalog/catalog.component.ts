@@ -44,6 +44,7 @@ export class CatalogComponent implements OnInit {
     }
   ];
 
+  //selectedItem = this.items[0];
   constructor() { }
 
   ngOnInit() {

@@ -42,11 +42,23 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { CatalogComponent } from './catalog/catalog.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
 import {ItemService} from './services/item.service';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
+
+import {AppRoutingModule} from './app-routing/app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
     CatalogComponent,
-    ItemDetailComponent
+    ItemDetailComponent,
+    HeaderComponent,
+    FooterComponent,
+    AboutComponent,
+    HomeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -57,7 +69,7 @@ import {ItemService} from './services/item.service';
     MatNativeDateModule, MatPaginatorModule, MatProgressBarModule, MatProgressSpinnerModule, MatRadioModule, MatRippleModule,
     MatSelectModule, MatSidenavModule, MatSliderModule, MatSlideToggleModule, MatSnackBarModule, MatSortModule, MatTableModule,
     MatTabsModule, MatToolbarModule, MatTooltipModule,
-    FlexLayoutModule
+    FlexLayoutModule,AppRoutingModule
 ],
   providers: [ItemService],
   bootstrap: [AppComponent]

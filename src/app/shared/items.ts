@@ -11,7 +11,7 @@ export const ITEMS: Item[] = [
     comments: [
       {
         rating: 5,
-        comment: 'Imagine all safety PPE in SSI!',
+        comment: 'Imagine all safety PPE in SSI! (HELMET)',
         author: 'Mr T',
         date: '2012-10-16T17:57:28.556094Z'
       },
@@ -51,7 +51,7 @@ export const ITEMS: Item[] = [
     comments: [
       {
         rating: 5,
-        comment: 'Imagine all safety PPE in SSI!',
+        comment: 'Imagine all safety PPE in SSI!(AUDIO PROTECTOR)',
         author: 'Mr T',
         date: '2012-10-16T17:57:28.556094Z'
       },
@@ -91,7 +91,7 @@ export const ITEMS: Item[] = [
     comments: [
       {
         rating: 5,
-        comment: 'Imagine all safety PPE in SSI!',
+        comment: 'Imagine all safety PPE in SSI! (GLASSES)',
         author: 'Mr T',
         date: '2012-10-16T17:57:28.556094Z'
       },
@@ -131,7 +131,7 @@ export const ITEMS: Item[] = [
     comments: [
       {
         rating: 5,
-        comment: 'Imagine all safety PPE in SSI!',
+        comment: 'Imagine all safety PPE in SSI!(GLOVES)',
         author: 'Mr T',
         date: '2012-10-16T17:57:28.556094Z'
       },

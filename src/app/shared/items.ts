@@ -2,6 +2,8 @@ import {Item} from './item';
 
 export const ITEMS: Item[] = [
   {
+    id: 0,
+    featured: false,
     name: 'Helmet',
     image: '/assets/images/helmet.jpg',
     category: 'safety',
@@ -11,7 +13,7 @@ export const ITEMS: Item[] = [
     comments: [
       {
         rating: 5,
-        comment: 'Imagine all safety PPE in SSI! (HELMET)',
+        comment: 'Imagine all safety PPE in SSI!',
         author: 'Mr T',
         date: '2012-10-16T17:57:28.556094Z'
       },
@@ -42,6 +44,8 @@ export const ITEMS: Item[] = [
     ]
   },
   {
+    id: 1,
+    featured: false,
     name: 'Audio protector',
     image: '/assets/images/audio.jpg',
     category: 'safety',
@@ -51,7 +55,7 @@ export const ITEMS: Item[] = [
     comments: [
       {
         rating: 5,
-        comment: 'Imagine all safety PPE in SSI!(AUDIO PROTECTOR)',
+        comment: 'Imagine all safety PPE in SSI!',
         author: 'Mr T',
         date: '2012-10-16T17:57:28.556094Z'
       },
@@ -82,6 +86,8 @@ export const ITEMS: Item[] = [
     ]
   },
   {
+    id: 2,
+    featured: true,
     name: 'Glasses',
     image: '/assets/images/glasses.jpg',
     category: 'safety',
@@ -91,7 +97,7 @@ export const ITEMS: Item[] = [
     comments: [
       {
         rating: 5,
-        comment: 'Imagine all safety PPE in SSI! (GLASSES)',
+        comment: 'Imagine all safety PPE in SSI!',
         author: 'Mr T',
         date: '2012-10-16T17:57:28.556094Z'
       },
@@ -122,6 +128,8 @@ export const ITEMS: Item[] = [
     ]
   },
   {
+    id: 3,
+    featured: false,
     name: 'Gloves',
     image: '/assets/images/gloves.jpg',
     category: 'safety',
@@ -131,7 +139,7 @@ export const ITEMS: Item[] = [
     comments: [
       {
         rating: 5,
-        comment: 'Imagine all safety PPE in SSI!(GLOVES)',
+        comment: 'Imagine all safety PPE in SSI!',
         author: 'Mr T',
         date: '2012-10-16T17:57:28.556094Z'
       },
@@ -160,5 +168,6 @@ export const ITEMS: Item[] = [
         date: '2011-12-02T17:57:28.556094Z'
       }
     ]
-    }
+  }
 ];
+

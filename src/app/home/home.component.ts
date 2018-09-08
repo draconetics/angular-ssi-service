@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Item} from '../shared/item';
+import {ItemService} from '../services/item.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  item:Item;
+
+  constructor(private itemService : ItemService) { }
 
   ngOnInit() {
+    this.item = this.itemService.getFeaturedItem();
   }
 
 }

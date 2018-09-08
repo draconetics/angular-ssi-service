@@ -14,4 +14,14 @@ export class ItemService {
     return ITEMS;
   }
 
+  getItem(id:number):Item{
+    //return array of items, from that list get the position 0
+    return ITEMS.filter((item)=>item.id === id)[0];
+  }
+
+  getFeaturedItem():Item{
+    //return array of items, from that list get the position 0
+    return ITEMS.filter((item)=>item.featured === true)[0];
+  }
+
 }
